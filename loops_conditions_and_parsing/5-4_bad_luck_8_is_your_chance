@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 #This script is to wish you luck
 
-count=0
-while i[ $count -lt 10 ]
-do
-if [ $count -eq 3 ]
-then
- echo "bad luck"
-elif [ $count -eq 7 ]
- then
-echo "good luck" 
- else
-echo "Best School"
-fi
- ((count ++))
+j="0"
+while [$j -lt 10]; do
+	if [$j -eq 3]
+	then
+		echo "bad luck"
+	elif [$j -eq 7]
+	then
+		echo"good luck"
+	else
+		echo "Best School"
+	fi
+	j=$((i+1))
 done
