@@ -12,5 +12,5 @@ while [ $j -lt 10 ]; do
 	else
 		echo "Best School"
 	fi
-	j=$((i+1))
+	j=$((j+1))
 done

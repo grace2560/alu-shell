@@ -1,4 +1,4 @@
-i#!/usr/bin/env bash
+#!/usr/bin/env bash
 #Script displays file /etc/passwd with story
 
 while IFS=: read -r user
