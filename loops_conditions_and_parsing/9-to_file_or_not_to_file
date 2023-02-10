@@ -4,6 +4,7 @@
 if [ -e "school" ]
 then
 echo "School file exists"
+fi
 if [ -s "school" ]
 then
  echo "School file is not empty"
