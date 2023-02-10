@@ -3,15 +3,14 @@
 
 if [-e "school"]
 then
-echo 'School file e"
-if[-s "school"]
+echo "School file e"
+if [-s "school"]
 then
  echo "School file is not empty"
  else
 echo "school"
 fi
--f "school"]
-if[-f "school"]
+if [-f "school"]
  then
 echo "School is a regular file"
 fi

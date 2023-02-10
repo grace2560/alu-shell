@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-This script displays a while loop
+#This script displays a while loop
 
 count=0
 
-while[$count - lt 10]
+while [$count - lt 10]
 do
-   echo"Best School"
+echo "Best School"
    ((count ++))
- done
+done
