@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #This script displays a school file
+
 file="School"
 if [ -e "$file" ]
 then

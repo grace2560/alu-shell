@@ -2,11 +2,11 @@
 #This script is to wish you luck
 
 j="0"
-while [$j -lt 10]; do
-	if [$j -eq 3]
+while [ $j -lt 10 ]; do
+	if [ $j -eq 3 ]
 	then
 		echo "bad luck"
-	elif [$j -eq 7]
+	elif [ $j -eq 7 ]
 	then
 		echo"good luck"
 	else
