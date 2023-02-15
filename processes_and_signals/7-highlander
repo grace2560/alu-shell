@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Displays
+trap 'echo "Iam invicible!!!" '15
+while true; do
+echo "To infinity and beyong"
+sleep 2
+done
