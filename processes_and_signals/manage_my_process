@@ -2,7 +2,8 @@
 #manage process
 pgrep -f 'manage_my_process' > my_process
 sudo mv my_process /tmp
-while true; do
- echo "I am alive!" > my_process
- sleep 2
+while true;
+do
+  echo "I am alive!" > my_process
+  sleep 2
 done

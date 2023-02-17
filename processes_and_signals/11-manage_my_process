@@ -23,12 +23,12 @@ then
                 ;;
                 "stop")
                      stopnow
-                           echo "mange_my_process stopped"
+                           echo "manage_my_process stopped"
                            ;;
         "restart")
         restartnow
         ;;
-        ")
+        *)
         echo "Usage: manage_my_process {start|stop|restart}"
         ;;
         esac
