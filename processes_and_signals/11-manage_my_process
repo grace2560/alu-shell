@@ -5,14 +5,17 @@ function startup(){
          bash ./manage_my_process &
          echo "&!" > /var/run/my_process.pid
 }
+
 function stopnow(){
          [ -e "/var/run/my_process.pid" ] && pkill -f './manage_my_process' &&  rm /var/run/my_process.pid
 }
+
 function restartnow(){
          stopnow
          startup
          echo "manage_my_process restarted"
 }
+
 if [ $# -eq 1 ]
 then
          OPTIONN="$1"
