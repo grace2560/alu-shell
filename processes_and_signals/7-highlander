@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Displays
-trap 'echo "Iam invicible!!!"' 15
+trap 'echo "I am invicible!!!"' 15
 while true; do
 echo "To infinity and beyond"
 sleep 2
