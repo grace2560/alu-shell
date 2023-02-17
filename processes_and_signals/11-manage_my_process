@@ -33,5 +33,5 @@ then
         ;;
         esac
 else
-	echo"Usage: manage_my_proces {start|stop|restart}"
+	echo "Usage: manage_my_proces {start|stop|restart}"
 fi
