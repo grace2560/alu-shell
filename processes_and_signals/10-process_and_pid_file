@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#no ten
+pgrep -f '10-process_and_pid_file' > myscript.pid
+sudo mv myscript.pid /var/run
+while true; do
+ echo "To infinity and beyond"
+ trap "echo I hate the kill command; sudo rm /var/run/myscript.pid; exit" SIGTERM
+ trap "echo Y U no love me?" SIGINT
+done
