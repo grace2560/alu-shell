@@ -7,7 +7,7 @@ function startup(){
 }
 
 function stopnow(){
-         [ -e "/var/run/my_process.pid" ] && pkill-f './manage_my_process' &&  rm /var/run/my_process.pid
+         [ -e "/var/run/my_process.pid" ] && pkill -f './manage_my_process' && rm /var/run/my_process.pid
 }
 
 function restartnow(){
